@@ -348,7 +348,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0440;
+				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Elegant Chaos";
 			};
 			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "ECAquaticPrime" */;
@@ -451,6 +451,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2260A31015DFD96D0057C9DA /* MacDebug.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"/Caches/DerivedData/timekeeper-cdbrayceoisycccsdfcpscnhxtzs/Build/Products/Debug\"",
@@ -464,6 +465,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2260A31115DFD96D0057C9DA /* MacRelease.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"/Caches/DerivedData/timekeeper-cdbrayceoisycccsdfcpscnhxtzs/Build/Products/Debug\"",
@@ -477,6 +479,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2260A31215DFD96D0057C9DA /* MacUnitTestDebug.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"/Caches/DerivedData/neu-ebxgnzguajhzbogvysnvpybbekqu/Build/Products/Debug\"",
@@ -492,6 +495,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2260A31315DFD96D0057C9DA /* MacUnitTestRelease.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"/Caches/DerivedData/neu-ebxgnzguajhzbogvysnvpybbekqu/Build/Products/Debug\"",
