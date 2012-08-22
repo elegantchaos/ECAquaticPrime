@@ -1,0 +1,1 @@
+Contains an AquaticPrime based implementation of the ECLicenseChecker class from ECAppKit.
