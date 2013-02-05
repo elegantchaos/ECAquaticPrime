@@ -62,7 +62,7 @@
 	NSDictionary* info = [self info];
 	if (info)
 	{
-		user = [info objectForKey: @"Name"];
+		user = info[@"Name"];
 	}
 	
 	return user;
@@ -75,7 +75,7 @@
 	NSDictionary* info = [self info];
 	if (info)
 	{
-		email = [info objectForKey: @"Email"];
+		email = info[@"Email"];
 	}
 	
 	return email;	
@@ -88,7 +88,7 @@
     if ([self isValid])
     {
         NSDictionary* info = [self info];
-        status = [NSString stringWithFormat: @"Licensed to %@ (%@)", [info objectForKey: @"Name"], [info objectForKey: @"Email"]];
+        status = [NSString stringWithFormat: @"Licensed to %@ (%@)", info[@"Name"], info[@"Email"]];
     }
     else
     {
