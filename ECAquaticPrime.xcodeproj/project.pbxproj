@@ -13,7 +13,6 @@
 		2227BD0815E4E56D001DCE0D /* AquaticPrime.h in Headers */ = {isa = PBXBuildFile; fileRef = 2227BD0615E4E56D001DCE0D /* AquaticPrime.h */; };
 		2227BD0B15E4E5B8001DCE0D /* ECAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227BD0915E4E593001DCE0D /* ECAppKit.framework */; };
 		2260A2EA15DFD7290057C9DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283A3BB14F52E93009142F7 /* Cocoa.framework */; };
-		2260A39A15DFE2DD0057C9DA /* ECConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2260A39715DFE2DC0057C9DA /* ECConfig.framework */; };
 		2260A39B15DFE2DD0057C9DA /* ECLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2260A39815DFE2DD0057C9DA /* ECLogging.framework */; };
 		2260A39C15DFE2DD0057C9DA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2260A39915DFE2DD0057C9DA /* Security.framework */; };
 		2260A39E15DFE2F00057C9DA /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2260A39D15DFE2F00057C9DA /* IOKit.framework */; };
@@ -110,7 +109,6 @@
 				2227BD0B15E4E5B8001DCE0D /* ECAppKit.framework in Frameworks */,
 				22E85D8515E42E7C00E67F50 /* libcrypto.dylib in Frameworks */,
 				2260A39E15DFE2F00057C9DA /* IOKit.framework in Frameworks */,
-				2260A39A15DFE2DD0057C9DA /* ECConfig.framework in Frameworks */,
 				2260A39B15DFE2DD0057C9DA /* ECLogging.framework in Frameworks */,
 				2260A39C15DFE2DD0057C9DA /* Security.framework in Frameworks */,
 				2260A2EA15DFD7290057C9DA /* Cocoa.framework in Frameworks */,
