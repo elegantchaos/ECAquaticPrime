@@ -14,7 +14,7 @@
 {
 	if ((self = [super init]) != nil)
 	{
-		APSetKey((CFStringRef) key);
+		APSetKey((__bridge CFStringRef) key);
 	}
 	
 	return self;
@@ -23,7 +23,7 @@
 - (BOOL) importLicenseFromURL: (NSURL*) url
 {
 	NSData* data = [NSData dataWithContentsOfURL: url];
-	BOOL valid = APVerifyLicenseData((CFDataRef) data);
+	BOOL valid = APVerifyLicenseData((__bridge CFDataRef) data);
 	if (valid)
 	{
 		[[NSUserDefaults standardUserDefaults] setValue: data forKey: @"License"];
@@ -45,14 +45,15 @@
 }
 - (BOOL) isValid
 {
-	return APVerifyLicenseData((CFDataRef) [self licenseData]);
+	return APVerifyLicenseData((__bridge CFDataRef) [self licenseData]);
 }
 
 - (NSDictionary*) info
 {
-	NSDictionary* info = (NSDictionary*) APCreateDictionaryForLicenseData((CFDataRef) [self licenseData]);
+	CFDictionaryRef ref = APCreateDictionaryForLicenseData((__bridge CFDataRef) [self licenseData]);
+	NSDictionary* info = (NSDictionary*) CFBridgingRelease(ref);
 	
-	return [info autorelease];
+	return info;
 }
 
 - (NSString*) user
