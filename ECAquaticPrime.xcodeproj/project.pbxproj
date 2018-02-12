@@ -338,7 +338,7 @@
 			name = ECAquaticPrimeMacTests;
 			productName = libECCoreMacTests;
 			productReference = 2283A3F514F52EC0009142F7 /* ECAquaticPrimeMacTests.xctest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -346,6 +346,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0610;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Elegant Chaos";
 			};
